@@ -1,0 +1,8 @@
+sales = float(input("Enter the monthly sales tax"))
+print("Monthly sales: $", sales)
+statetax = float(sales * 0.04)
+countytax = float(sales* 0.02)
+print("State tax: $", statetax)
+print("County tax: $",countytax)
+totalsales = float(statetax + countytax)
+print("Total sales tax: $",totalsales)
